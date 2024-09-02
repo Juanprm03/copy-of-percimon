@@ -13,7 +13,10 @@ function Footer() {
             </div>
             <div>
               <ul className="flex flex-col gap-2 text-center md:text-start">
-                <li>Calle 11 A # 31 A 89. Edificio Bosko</li>
+                <p>
+                <a href="https://goo.gl/maps/NXCAv7aA6P2BbHvh7" target="_blank" rel="noopener">Calle 11 A # 31 A 89. Edificio Bosko</a>
+                </p>
+                <p>&nbsp;</p>
                 <li>Horario de atención oficina central:</li>
                 <li>Lunes a Viernes de 8:00 am a 4:30 pm</li>
               </ul>
@@ -43,13 +46,13 @@ function Footer() {
               <a href="https://www.linkedin.com/company/percimon/" target="_blank" rel="noopener noreferrer">
                 <ion-icon name="logo-linkedin"></ion-icon>
               </a>
-              <a href="https://www.spotify.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://open.spotify.com/user/percimon" target="_blank" rel="noopener noreferrer">
                 <ion-icon name="logo-spotify"></ion-icon>
               </a>
             </div>
           </div>
         </div>
-        <p className="mb-8 font-semibold">TODOS LOS DERECHOS RESERVADOS 2024</p>
+        <p className="col-item mb-8 font-semibold">TODOS LOS DERECHOS RESERVADOS ® 2024</p>
       </footer>
     </>
   );
