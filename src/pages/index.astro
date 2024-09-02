@@ -1,0 +1,64 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar";
+import Producto from "../components/Producto";
+import Footer from "../components/Footer";
+import BtnWsap from "../components/BtnWsap";
+---
+
+<Layout title="Welcome to Astro.">
+  <Navbar client:load />
+  <BtnWsap />
+  <Producto client:load 
+    title="HELADO DE YOGURT"
+    description="Suave helado de yogurt. 80% menos grasa y 50% menos azúcar."
+    img="https://www.percimon.com/wp-content/uploads/2021/02/y-helado.png"
+  />
+  <Producto client:load
+    title="HEALDO DE ALMENDRAS"
+    description="Suave helado de leche de almendras. Libre de lácteos, sin gluten y 0% azúcar refinada."
+    img="https://www.percimon.com/wp-content/uploads/2021/02/helado-almendras-1.png"
+  />
+  <Producto client:load
+    title="MIXO"
+    description="Una base de tu helado o yogurt favorito + 4 adiciones normales incluidas."
+    img="https://www.percimon.com/wp-content/uploads/2021/02/mixo-y-helado.png"
+  />
+  <Producto client:load
+    title="POKET"
+    description="Una base de torta artesanal acompañada de tu helado o yogurt favorito."
+    img="https://www.percimon.com/wp-content/uploads/2021/02/poket-y-helado.png"
+  />
+  <Producto client:load
+    title="YOGURT GRIEGO"
+    description="Yogurt cuchareable y cremoso, con más contenido de proteína y menos contenido de grasa."
+    img="https://www.percimon.com/wp-content/uploads/2021/02/yogur-griego.png"
+  />
+  <Producto client:load
+    title="CUCURUCHO"
+    description="Helado de Yogurt o Helado de Almendras en Cucurucho."
+    img="https://www.percimon.com/wp-content/uploads/2021/02/cucurucho-1.png"
+  />
+  <Producto client:load
+    title="PALETAS"
+    description="Paletas artesanales. Más de 20 sabores deliciosos para disfrutar."
+    img="https://www.percimon.com/wp-content/uploads/2021/02/paletas-frutales.png"
+  />
+  <Producto client:load
+    title="ADICIONES"
+    description="Perfecta combinación de helado y frutas."
+    img="https://www.percimon.com/wp-content/uploads/2021/02/adiciones-para-llevar.png"
+  />
+  <Producto client:load
+    title="PRODUCTOS PARA LLEVAR"
+    description="Para disfrutar y compartir en casa."
+    img="https://www.percimon.com/wp-content/uploads/2021/03/prodctos-circulosy-helado-litro-1.png"
+  />
+  <Producto client:load
+    title="TARJETA REGALO"
+    description="Ideal para regalar y disfrutar juntos."
+    img="https://www.percimon.com/wp-content/uploads/2021/02/bonos.png"
+  />
+
+  <Footer />
+</Layout>
