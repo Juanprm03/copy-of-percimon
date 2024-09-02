@@ -3,7 +3,6 @@ function Footer() {
     <>
       <footer className="w-full bg-emerald-500 text-white flex flex-col gap-12 items-center px-8">
         <div className="flex flex-col gap-12 lg:gap-40 xl:gap-80 items-center md:flex-row md:flex-wrap p-10 justify-between">
-          {/* Sección de logo y dirección/horario */}
           <div className="flex flex-col gap-10 items-center md:items-start order-1">
             <div className="flex items-start justify-start">
               <img
@@ -21,7 +20,6 @@ function Footer() {
             </div>
           </div>
 
-          {/* Sección de información y redes sociales */}
           <div className="flex flex-col items-center md:items-end order-2">
             <div>
               <ul className="flex flex-col text-wrap text-center gap-4 md:text-start">
@@ -36,13 +34,13 @@ function Footer() {
               </ul>
             </div>
             <div className="flex gap-2 text-xl justify-center md:justify-end w-full mt-8">
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/percimonhelados" target="_blank" rel="noopener noreferrer">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/percimon" target="_blank" rel="noopener noreferrer">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/company/percimon/" target="_blank" rel="noopener noreferrer">
                 <ion-icon name="logo-linkedin"></ion-icon>
               </a>
               <a href="https://www.spotify.com" target="_blank" rel="noopener noreferrer">
