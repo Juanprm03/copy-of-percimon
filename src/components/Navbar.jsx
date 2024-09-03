@@ -62,14 +62,30 @@ function Navbar() {
             alt="logo"
           />
           <ul className="flex gap-8 items-center p-2 font-semibold">
+            <a href="https://www.percimon.com/cultura/">
             <li className="text-emerald-500 cursor-pointer">CULTURA</li>
+            </a>
+            <a href="https://www.percimon.com/productos/">
             <li className="text-emerald-500 cursor-pointer">PRODUCTOS</li>
+            </a>
+            <a href="https://domicilios.percimon.com/pedir">
             <li className="text-emerald-500 cursor-pointer">HAZ TU PEDIDO</li>
+            </a>
+            <a href="https://www.percimon.com/trabaja-con-nosotros/">
             <li className="text-emerald-500 cursor-pointer">TRABAJA AQUÍ</li>
+            </a>
+            <a href="https://percimonorigen.com/inicio/">
             <li className="text-emerald-500 cursor-pointer">ORIGEN</li>
+            </a>
+            <a href="https://www.percimon.com/encuentranos/">
             <li className="text-emerald-500 cursor-pointer">ENCUÉTRANOS</li>
+            </a>
+            <a href="https://www.percimon.com/contacto/">
             <li className="text-emerald-500 cursor-pointer">CONTACTO</li>
+            </a>
+            <a href="https://www.percimon.net/unipercimon/login/index.php">
             <li className="text-emerald-500 cursor-pointer">CAMPUS</li>
+            </a>
           </ul>
           <div className="flex gap-4 text-4xl text-emerald-500">
             <a href="https://www.facebook.com/percimonhelados" target="_blank">
